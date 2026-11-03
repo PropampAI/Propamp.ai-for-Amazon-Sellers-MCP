@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.propamp/mcp",
+  "title": "Propamp.ai",
+  "description": "Connect your Amazon Seller Central data to Claude, Codex, Cursor, and other AI tools via MCP.",
+  "version": "1.0.0",
+  "websiteUrl": "https://propamp.ai/mcp-server",
+  "repository": {
+    "url": "https://github.com/PropampAI/Propamp.ai-for-Amazon-Sellers-MCP-",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.propamp.ai/mcp"
+    },
+    {
+      "type": "sse",
+      "url": "https://mcp.propamp.ai/mcp/sse"
+    }
+  ]
+}

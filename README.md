@@ -65,6 +65,11 @@ its OAuth endpoints at `/.well-known/oauth-protected-resource` and `/.well-known
 so any spec-compliant client can discover and authorize itself. Point the client at
 `https://mcp.propamp.ai/mcp` and let it run the OAuth flow.
 
+## MCP Registry
+
+The server's name in the [official MCP Registry](https://registry.modelcontextprotocol.io) is
+`ai.propamp/mcp`. [`server.json`](server.json) defines its registry entry.
+
 ## Example Prompts
 
 - "Show my profit breakdown for the last 30 days across all Amazon marketplaces"
